@@ -35,3 +35,6 @@ ${SUSFS_BIN} add_try_umount /apex/com.android.art/bin/dex2oat64 1
 #Modules for mounting system
 ${SUSFS_BIN} add_sus_mount /system
 
+# rename kernel
+${SUSFS_BIN} set_uname '6.1.137-android14-11-gb572b1fac135-ab11919372' '#1 SMP PREEMPT Fri Nov 1 16:35:10 UTC 2024'
+
