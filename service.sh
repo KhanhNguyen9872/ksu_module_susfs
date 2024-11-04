@@ -36,10 +36,6 @@ enable_sus_su
 ## Disable susfs kernel log ##
 ${SUSFS_BIN} enable_log 0
 
-sleep 2s
-${SUSFS_BIN} add_sus_mount /system/etc
-${SUSFS_BIN} add_try_umount /system/etc 1
-
 ## Props ##
 resetprop -w sys.boot_completed 0
 
