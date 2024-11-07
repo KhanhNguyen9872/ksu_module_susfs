@@ -17,3 +17,7 @@ ${SUSFS_BIN} add_sus_mount /product
 
 #modules for mounting /vendor
 ${SUSFS_BIN} add_sus_mount /vendor
+
+#modules for mounting /system_ext
+${SUSFS_BIN} add_sus_mount /system_ext
+
