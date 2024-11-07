@@ -31,7 +31,7 @@ enable_sus_su(){
 
 ## Enable sus_su ##
 ## Uncomment this if you are using kprobe hooks ksu, make sure CONFIG_KSU_SUSFS_SUS_SU config is enabled when compiling kernel ##
-enable_sus_su
+# enable_sus_su # comment this if you using tricky_store (because will break pm list packages if enabled)
 
 ## Disable susfs kernel log ##
 ${SUSFS_BIN} enable_log 0
